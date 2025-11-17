@@ -33,7 +33,7 @@ mpirun -n 4 python3 problematica_1.py
 
 # 2. Ejecutar la versión secuencial (para comparar)
 python3 version_secuencial_p1.py
-#Link al video explicativo: https://drive.google.com/file/d/1712Jo_0ByY6Vt0jK1BQ1HjMgG2CXsOdZ/view?usp=sharing
+Link al video explicativo: https://drive.google.com/file/d/1712Jo_0ByY6Vt0jK1BQ1HjMgG2CXsOdZ/view?usp=sharing
 ##  Problemática 2: OpenMP y Análisis de Datos IMU
 
 Implementación de un programa C++ que usa OpenMP para paralelizar el cálculo de métricas (Media, Std, RMS, Energía) sobre ventanas deslizantes de datos IMU.
@@ -61,4 +61,4 @@ g++ -o problema2_secuencial problema2_secuencial.cpp
 # Ejecutar la versión paralela (ej. con 4 hilos)
 $env:OMP_NUM_THREADS = "4"
 .\problema2.exe
-#Link al video explicativo: https://drive.google.com/file/d/1C8qbXyAPR7QQcdGZe36x8_tlZlvVyEKe/view?usp=sharing
+Link al video explicativo: https://drive.google.com/file/d/1C8qbXyAPR7QQcdGZe36x8_tlZlvVyEKe/view?usp=sharing
