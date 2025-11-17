@@ -1,0 +1,12 @@
+# Ignorar archivos compilados
+*.exe
+*.o
+
+# Ignorar archivos de video
+*.mp4
+*.mov
+*.avi
+
+# Ignorar carpetas de sistema
+.vscode/
+*.DS_Store 
